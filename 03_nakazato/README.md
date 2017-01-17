@@ -1,4 +1,5 @@
-# AJACS尾張 次世代シーケンサー（NGS）解析・基礎編：関連データベース、ツール
+## AJACS尾張
+# 次世代シーケンサー（NGS）解析・基礎編：関連データベース、ツール
 
 情報・システム研究機構（ROIS）  
 データサイエンス共同利用基盤施設
@@ -62,8 +63,21 @@ ABI PRISM&#174; 3100-Avant Genetic Analyzerより
 ←クレジットをいれれば、転載・改変・再利用 OK
 
 ![developments-in-high-throughput-sequencing-july-2016-edition](https://raw.githubusercontent.com/AJACS-training/AJACS63/master/02_ohta/images/developments_in_high_throughput_sequencing.jpg)
-2016年7月時点でのシーケンサー各社の公称スペックをプロットしたものです (引用: Developments in high throughput sequencing – July 2016 edition, https://flxlexblog.wordpress.com/2016/07/08/developments-in-high-throughput-sequencing-july-2016-edition/ )。
+2016年7月時点でのシーケンサー各社の公称スペックをプロットしたもの (引用: Developments in high throughput sequencing – July 2016 edition, https://flxlexblog.wordpress.com/2016/07/08/developments-in-high-throughput-sequencing-july-2016-edition/ )。
 
+## NGSデータの規模
+- 【実習】どのくらいのデータ量になるか考えてみましょう
+  - ゲル板：750 (base/lane) × 48/4 lanes <span style="color: rgb(250, 250, 250)">= 9kbase</span>
+  - キャピラリ：500 (base/lane) × 96 lane <span style="color: rgb(250, 250, 250)">= 48kbase</span>
+  - 次世代： 36 (base/seq) × 300M seq/run <span style="color: rgb(250, 250, 250)">= 10.8Gbase = 10,800,000kbase</span>
+  - ↑これらの数字は規模感をつかむだけなので、ざっくりな数字になっています（1 runにかかる時間は比較してないですし）
+  - ↑これらの数字は「塩基数」であって、シーケンサの出力である「画像データ」のデータサイズでないことに注意！
+  - そして、その画像データはSRAには登録されていない
+
+## NGSの利用範囲
+  - ゲノム、発現解析、メタゲノム解析、ChIP-Seq（転写因子解析）、SNP解析、...
+    - 目的によって必要なデータ量も違う  [![](http://motdb.dbcls.jp/?plugin=ref&page=AJACS48%2Fnakazato&src=NGSreq.png)]()
+    - 機器に合った利用を  [![](http://motdb.dbcls.jp/?plugin=ref&page=AJACS48%2Fnakazato&src=NGSinst.png)]()
 
 
 ----
