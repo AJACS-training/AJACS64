@@ -24,9 +24,9 @@
 森 亮樹  
 (科学技術振興機構 バイオサイエンスデータベースセンター)  
 
-15:15～16:45 「[パスウェイマッピング](https://github.com/AJACS-training/AJACS64/blob/master/02_kotera/)」  
-小寺 正明  
-(東京工業大学)  
+15:15～16:45 「[パスウェイ情報を中心としたKEGG/Genome Net Webサービスの紹介](https://github.com/AJACS-training/AJACS64/blob/master/02_muto/)」  
+武藤 愛
+（奈良先端科学技術大学院大学バイオサイエンス研究科）
 
 #### 2月1日(水)
 9:30～11:00 「[次世代シーケンサー(NGS)解析・基礎編:関連データベース、ツール](https://github.com/AJACS-training/AJACS64/blob/master/03_nakazato/)」  
