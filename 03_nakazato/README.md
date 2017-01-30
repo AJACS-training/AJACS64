@@ -50,14 +50,15 @@ ABI PRISM&#174; 3100-Avant Genetic Analyzerより
   - 超並列
   - どんなの?
     - Illumina HiSeq  
-[![](http://g86.dbcls.jp/~togoriv/wp-content/uploads/2011/05/genomesequencer4_sm.png)]()
+[![](http://togotv.dbcls.jp/pic/201105_GenomeSequencer_4.png)]()
     - Illumina MiSeq  
-[![](http://g86.dbcls.jp/~togoriv/wp-content/uploads/2013/10/MiSeq-345x345.png)]()
+[![](http://togotv.dbcls.jp/pic/201310_genomesequencer7.png)]()
     - PacBio
-    [![](http://g86.dbcls.jp/~togoriv/wp-content/uploads/2015/02/pacbio_400.png)]()
-    - Togo picture gallery ( http://g86.dbcls.jp/~togoriv/ ) より
+    [![](http://togotv.dbcls.jp/pic/201507_genomesequencer8_2.png)]()
+    - Ion Torrent
+
+    - Togo picture gallery ( http://togotv.dbcls.jp/ja/pics.html ) より
 [![](https://licensebuttons.net/l/by/2.1/jp/88x31.png)]()
-- Ion Torrent
 
 &#169; 2011 DBCLS Licensed under CC 表示 2.1 日本
 ←クレジットをいれれば、転載・改変・再利用 OK
