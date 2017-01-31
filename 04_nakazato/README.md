@@ -28,6 +28,9 @@ twitter: @chalkless
   - 解析環境・ウェブベース
 
 ## 実際の解析1：クオリティチェック・トリミング
+- クオリティチェックには主にFASTQCというツールが使われます。  
+トリミングはさまざまなツールがあります（今回はtrim_galoreで例を示しています）
+
 - 入力データ：FASTQフォーマット
 
 
@@ -53,6 +56,24 @@ twitter: @chalkless
 
   - 1行目： > + タイトル
   - 2行目以降：塩基配列
+
+
+- コマンド例
+  - クオリティチェック
+
+`$ fastqc --nogroup -o DRR1234567.fastq`
+
+  - トリミング
+
+`trim_galore --paired --illumina --fastqc -o trimmed/ DRR1234567.R1.fastq DRR1234567.R2.fastq`
+
+  - 結果例
+
+  [![](images/ajacs64.nakazato.pm.017.png)]()
+
+  - 今回、発現解析のところで用いるデータ（デスクトップ＞AJACS_OWARI）の中にも実際のものがあります
+  - DBCLS SRAではあらかじめFastQCをかけた結果を表示できるように随時、処理をしています（自分でやらなくてよい！）
+    - 例： http://sra.dbcls.jp/search/view/SRR067385
 
 
 ## 実際の解析2−1：発現解析（mapping）
