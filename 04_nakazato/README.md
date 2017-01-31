@@ -125,7 +125,11 @@ CAAAACATTTTGCTTTAAAACAGATATGATCACTAGGTGCAATGGCCTAATTCCCTGGCT
   https://trinotate.github.io/
 
 ## 実際の解析3−1：SNV/Indel解析
+- 基本的にはmappingと同様。ただし、1塩基のずれも重要なので（場合によってはmappingでのツールで大雑把にアラインメントをとった後）精度重視でのmappingを行う。  
+その後、variantの解析を行う。
 
+- 結果：vcfデータ（variant call format）
+[![](images/ajacs64.nakazato.pm.033.png)]()
 
 ## 実際の解析3−2：ChIP-Seq
 
