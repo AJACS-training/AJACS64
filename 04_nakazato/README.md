@@ -21,41 +21,37 @@ twitter: @chalkless
 
 ## 参考リソース
   - 参考図書・その1 〜 実験もやる人向け
+    [![](images/ajacs64.nakazato.pm.006.png)]()
+
   - 参考図書・その2 〜 解析を詳しく
+    [![](images/ajacs64.nakazato.pm.007.png)]()
+
   - 詳細な解析をひととおり知りたい
+    [![](images/ajacs64.nakazato.pm.008.png)]()
+    https://biosciencedbc.jp/human/human-resources/workshop/h28-2
+
   - 解析について詳細な情報を探したい
+    [![](images/ajacs64.nakazato.pm.009.png)]()
+    http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html
+
   - 解析環境・コマンドラインベース
+    [![](images/ajacs64.nakazato.pm.010.png)]()
+    http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html#bioinfo_ngs_sokushu_2016_20160719
+
   - 解析環境・ウェブベース
+    [![](images/ajacs64.nakazato.pm.011.png)]()
+    http://p.ddbj.nig.ac.jp/
+
 
 ## 実際の解析1：クオリティチェック・トリミング
 - クオリティチェックには主にFASTQCというツールが使われます。  
 トリミングはさまざまなツールがあります（今回はtrim_galoreで例を示しています）
 
 - 入力データ：FASTQフォーマット
-
-
-    @DRR001107.1 GEZQ5FO01EEA7F length=77
-    GCAACATTCAACACATATGTGTTGAATGTTGCACGACGGNGTGTCGCGTCTCTCAAGGCACACAGGGAGTAGNGNNN
-    +DRR001107.1 GEZQ5FO01EEA7F length=77
-    C@BBBECCECDBBBAAAAA<441111?=?????44!00044322====22--..//6998222<7<3/!/!!!
-
-  - 1行目： @ + タイトル
-  - 2行目：塩基配列
-  - 3行目： + （+ タイトル）
-  - 4行目：シーケンスクオリティ
-
+[![](images/ajacs64.nakazato.pm.014.png)]()
 
 - [参考] FASTAフォーマット
-
-
-    > AB084425.1 eel SLC26A6
-    GACCCAAAACTGATAGGTGATGTTCACGTAGTGGC
-    CATCGCCTGATAGACGGTTTTCGCCCTTTGACGTT
-    GGAGTCCACGTTCTTTAATAGTGACTCTGAGTAAA
-    …
-
-  - 1行目： > + タイトル
-  - 2行目以降：塩基配列
+[![](images/ajacs64.nakazato.pm.015.png)]()
 
 
 - コマンド例
@@ -99,9 +95,13 @@ twitter: @chalkless
 
 `samtools view -h SRR1294107.bam -o SRR1294107.sam` （BAMからSAMへの変換）
 
-
-
 ## 実際の解析2−2：発現解析（de novo）
+- 特に非モデル生物を扱う場合など、ゲノム情報がない場合は、RNA-Seqの発現データをリードだけでつなぎtranscriptを得る
+- Trinity を用いる
+
+- コマンド例
+
+`$ Trinity --seqType fq --left DRR1234567.R1.fastq --right DRR1234567.R2.fastq --max_memory 24G --CPU 16`
 
 ## 実際の解析2−3：その後の発現解析
 
