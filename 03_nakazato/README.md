@@ -1,5 +1,5 @@
 ## AJACS尾張
-# 次世代シーケンサー（NGS）解析・基礎編：  関連データベース、ツール
+# 次世代シーケンサー（NGS）解析・基礎編：関連データベース、ツール
 
 情報・システム研究機構（ROIS）  
 データサイエンス共同利用基盤施設
@@ -22,7 +22,7 @@ twitter: @chalkless
   - 次世代シーケンサー
   - 新型シーケンサ
   - New-generation Sequencing (NGS)
-  - Next-generation Sequencing (NGS)
+  - Next-generation Sequiencing (NGS)
   - 他にmassively parallel DNA sequencing とか...
   - 最近は、 High-throughput DNA sequencing (technology) をよく使う印象（略語はNGS）
 
@@ -50,17 +50,17 @@ ABI PRISM&#174; 3100-Avant Genetic Analyzerより
   - 超並列
   - どんなの?
     - Illumina HiSeq  
-[![](http://g86.dbcls.jp/~togoriv/wp-content/uploads/2011/05/genomesequencer4_sm.png)]()
+[![](http://togotv.dbcls.jp/pic/201105_GenomeSequencer_4.png)]()
     - Illumina MiSeq  
-[![](http://g86.dbcls.jp/~togoriv/wp-content/uploads/2013/10/MiSeq-345x345.png)]()
+[![](http://togotv.dbcls.jp/pic/201310_genomesequencer7.png)]()
     - PacBio
-[![](http://g86.dbcls.jp/~togoriv/wp-content/uploads/2015/02/pacbio_400.png)]()
+    [![](http://togotv.dbcls.jp/pic/201507_genomesequencer8_2.png)]()
     - Ion Torrent
 
-Togo picture gallery ( http://g86.dbcls.jp/~togoriv/ ) より
+    - Togo picture gallery ( http://togotv.dbcls.jp/ja/pics.html ) より
+[![](https://licensebuttons.net/l/by/2.1/jp/88x31.png)]()
 
 &#169; 2011 DBCLS Licensed under CC 表示 2.1 日本
-[![](https://licensebuttons.net/l/by/2.1/jp/88x31.png)]()
 ←クレジットをいれれば、転載・改変・再利用 OK
 
 ![developments-in-high-throughput-sequencing-july-2016-edition](https://raw.githubusercontent.com/AJACS-training/AJACS63/master/02_ohta/images/developments_in_high_throughput_sequencing.jpg)
@@ -79,8 +79,6 @@ Togo picture gallery ( http://g86.dbcls.jp/~togoriv/ ) より
   - ゲノム、発現解析、メタゲノム解析、ChIP-Seq（転写因子解析）、SNP解析、...
     - 目的によって必要なデータ量も違う  [![](http://motdb.dbcls.jp/?plugin=ref&page=AJACS48%2Fnakazato&src=NGSreq.png)]()
     - 機器に合った利用を  [![](http://motdb.dbcls.jp/?plugin=ref&page=AJACS48%2Fnakazato&src=NGSinst.png)]()
-
-## NGSのデータベース
 
 
 ----
