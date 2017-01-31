@@ -67,6 +67,7 @@ twitter: @chalkless
 
   [![](images/ajacs64.nakazato.pm.017.png)]()
 
+  - HTMLファイルができると思ってください
   - 今回、発現解析のところで用いるデータ（デスクトップ＞AJACS_OWARI）の中にも実際のものがあります
   - DBCLS SRAではあらかじめFastQCをかけた結果を表示できるように随時、処理をしています（自分でやらなくてよい！）
     - 例： http://sra.dbcls.jp/search/view/SRR067385
@@ -103,8 +104,25 @@ twitter: @chalkless
 
 `$ Trinity --seqType fq --left DRR1234567.R1.fastq --right DRR1234567.R2.fastq --max_memory 24G --CPU 16`
 
-## 実際の解析2−3：その後の発現解析
+- 結果例
 
+```
+$ head trinity_out_dir/Trinity.fasta
+>TRINITY_DN0_c0_g1_i1 len=390 path=[735:0-389] [-1, 735, -2]
+AAACTTCATAGATGAAATAAATGCTCATATACTATGTAGAAAATCTCCACATATATAAAA
+CAAAACATTTTGCTTTAAAACAGATATGATCACTAGGTGCAATGGCCTAATTCCCTGGCT
+…
+```
+-DNxxx_cXXX がクラスタとしてまとまったもの。-gXXXの部分が遺伝子、_iXXXがisoformに対応
+
+
+## 実際の解析2−3：その後の発現解析
+- 発現量解析
+- 遺伝子機能アノテーション
+  - BLASTで類似性のある遺伝子を検索
+  - hmmerでドメインサーチ
+  - → Trinityの関連でのアノテーションづけのページが非常に役立つ  
+  https://trinotate.github.io/
 
 ## 実際の解析3−1：SNV/Indel解析
 
