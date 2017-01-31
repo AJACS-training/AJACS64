@@ -80,6 +80,7 @@ ABI PRISM&#174; 3100-Avant Genetic Analyzerより
     - 目的によって必要なデータ量も違う  [![](http://motdb.dbcls.jp/?plugin=ref&page=AJACS48%2Fnakazato&src=NGSreq.png)]()
     - 機器に合った利用を  [![](http://motdb.dbcls.jp/?plugin=ref&page=AJACS48%2Fnakazato&src=NGSinst.png)]()
 
+配布物参照。あとでここにもたしておきます。
 
 ----
 
