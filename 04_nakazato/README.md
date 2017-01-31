@@ -12,6 +12,19 @@ twitter: @chalkless
 
 ----
 
-[AJACS尾張](http://events.biosciencedb.jp/training/ajacs64/) > 次世代シーケンサー（NGS）解析・基礎編：関連データベース、ツール
+[AJACS尾張](http://events.biosciencedb.jp/training/ajacs64/) > 次世代シーケンサー（NGS）解析・実践編：目的別データ解析
+
+----
+
+## 概略
+
+
+
+
+
+
+----
+
+[AJACS尾張](http://events.biosciencedb.jp/training/ajacs64/) > 次世代シーケンサー（NGS）解析・実践編：目的別データ解析
 
 ----
