@@ -78,6 +78,29 @@ twitter: @chalkless
 
 ## 実際の解析2−1：発現解析（mapping）
 
+- ゲノムなどのリファレンス配列にNGSデータをマッピングします
+- bowtie、tophat2などなどさまざまなツールがあります
+  - 発現解析程度なら速度重視、SNP解析なら精度重視とツールも変わります
+  - 名前が違うだけで、中身は複数のツールの組み合わせということも多々あります
+- コマンド例：マッピング
+
+`tophat -p 2 -G annotation.gtf -o results/ Human.genome.fasta DRR1234567.trimmed.fasta`
+
+- 結果：sam/bamフォーマット
+
+[![](images/ajacs64.nakazato.pm.021.png)]()
+
+
+- コマンド例：形式変換
+  - マッピングはsam形式かbam形式で出力されます  
+  samは人間が読めるがサイズが大きいです。bamはプログラムで扱えるように（サイズを小さくするためにも）なっていますが人間には読めません
+
+`samtools view -Sb SRR1294107.sam -o SRR1294107.bam` （SAMからBAMへの変換）
+
+`samtools view -h SRR1294107.bam -o SRR1294107.sam` （BAMからSAMへの変換）
+
+
+
 ## 実際の解析2−2：発現解析（de novo）
 
 ## 実際の解析2−3：その後の発現解析
