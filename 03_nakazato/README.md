@@ -22,7 +22,7 @@ twitter: @chalkless
   - 次世代シーケンサー
   - 新型シーケンサ
   - New-generation Sequencing (NGS)
-  - Next-generation Sequiencing (NGS)
+  - Next-generation Sequencing (NGS)
   - 他にmassively parallel DNA sequencing とか...
   - 最近は、 High-throughput DNA sequencing (technology) をよく使う印象（略語はNGS）
 
