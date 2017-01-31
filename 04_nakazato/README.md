@@ -28,6 +28,32 @@ twitter: @chalkless
   - 解析環境・ウェブベース
 
 ## 実際の解析1：クオリティチェック・トリミング
+- 入力データ：FASTQフォーマット
+
+
+    @DRR001107.1 GEZQ5FO01EEA7F length=77
+    GCAACATTCAACACATATGTGTTGAATGTTGCACGACGGNGTGTCGCGTCTCTCAAGGCACACAGGGAGTAGNGNNN
+    +DRR001107.1 GEZQ5FO01EEA7F length=77
+    C@BBBECCECDBBBAAAAA<441111?=?????44!00044322====22--..//6998222<7<3/!/!!!
+
+  - 1行目： @ + タイトル
+  - 2行目：塩基配列
+  - 3行目： + （+ タイトル）
+  - 4行目：シーケンスクオリティ
+
+
+- [参考] FASTAフォーマット
+
+
+    > AB084425.1 eel SLC26A6
+    GACCCAAAACTGATAGGTGATGTTCACGTAGTGGC
+    CATCGCCTGATAGACGGTTTTCGCCCTTTGACGTT
+    GGAGTCCACGTTCTTTAATAGTGACTCTGAGTAAA
+    …
+
+  - 1行目： > + タイトル
+  - 2行目以降：塩基配列
+
 
 ## 実際の解析2−1：発現解析（mapping）
 
