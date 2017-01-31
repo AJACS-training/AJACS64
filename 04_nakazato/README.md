@@ -53,6 +53,7 @@ twitter: @chalkless
 - [参考] FASTAフォーマット
 [![](images/ajacs64.nakazato.pm.015.png)]()
 
+- 場合によっては（NCBIからダウンロードしたときなど）サイズ削減などのため、sra形式で圧縮されている場合があります。そのときはsra-toolkitでFASTQファイルを取り出したりします
 
 - コマンド例
   - クオリティチェック
