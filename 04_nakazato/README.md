@@ -17,29 +17,29 @@ twitter: @chalkless
 ----
 
 ## 概略
-  [![](images/AJACS64_04_nakazato_004.jpg)]()
+  [![](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_004.jpg)]()
 
 ## 参考リソース
   - 参考図書・その1 〜 実験もやる人向け
-    [![](images/AJACS64_04_nakazato_006.jpg)]()
+    [![](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_006.jpg)]()
 
   - 参考図書・その2 〜 解析を詳しく
-    [![](images/AJACS64_04_nakazato_007.jpg)]()
+    [![](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_007.jpg)]()
 
   - 詳細な解析をひととおり知りたい
-    [![](images/AJACS64_04_nakazato_008.jpg)]()
+    [![](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_008.jpg)]()
     https://biosciencedbc.jp/human/human-resources/workshop/h28-2
 
   - 解析について詳細な情報を探したい
-    [![](images/AJACS64_04_nakazato_009.jpg)]()
+    [![](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_009.jpg)]()
     http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html
 
   - 解析環境・コマンドラインベース
-    [![](images/AJACS64_04_nakazato_010.jpg)]()
+    [![](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_010.jpg)]()
     http://www.iu.a.u-tokyo.ac.jp/~kadota/r_seq.html#bioinfo_ngs_sokushu_2016_20160719
 
   - 解析環境・ウェブベース
-    [![](images/AJACS64_04_nakazato_011.jpg)]()
+    [![](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_011.jpg)]()
     http://p.ddbj.nig.ac.jp/
 
 
@@ -48,10 +48,10 @@ twitter: @chalkless
 トリミングはさまざまなツールがあります（今回はtrim_galoreで例を示しています）
 
 - 入力データ：FASTQフォーマット
-[![](images/AJACS64_04_nakazato_014.jpg)]()
+[![](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_014.jpg)]()
 
 - [参考] FASTAフォーマット
-[![](images/AJACS64_04_nakazato_015.jpg)]()
+[![](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_015.jpg)]()
 
 - 場合によっては（NCBIからダウンロードしたときなど）サイズ削減などのため、sra形式で圧縮されている場合があります。そのときはsra-toolkitでFASTQファイルを取り出したりします
 
@@ -66,7 +66,7 @@ twitter: @chalkless
 
   - 結果例
 
-  [![](images/AJACS64_04_nakazato_017.jpg)]()
+  [![](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_017.jpg)]()
 
   - HTMLファイルができると思ってください
   - 今回、発現解析のところで用いるデータ（デスクトップ＞AJACS_OWARI）の中にも実際のものがあります
@@ -86,7 +86,7 @@ twitter: @chalkless
 
 - 結果：sam/bamフォーマット
 
-[![](images/AJACS64_04_nakazato_021.jpg)]()
+[![](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_021.jpg)]()
 
 
 - コマンド例：形式変換
@@ -130,7 +130,7 @@ CAAAACATTTTGCTTTAAAACAGATATGATCACTAGGTGCAATGGCCTAATTCCCTGGCT
 その後、variantの解析を行う。
 
 - 結果：vcfデータ（variant call format）
-[![](images/AJACS64_04_nakazato_033.jpg)]()
+[![](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_033.jpg)]()
 
 ## 実際の解析3−2：ChIP-Seq
 
@@ -145,113 +145,113 @@ CAAAACATTTTGCTTTAAAACAGATATGATCACTAGGTGCAATGGCCTAATTCCCTGGCT
 
 ----
 ## Slides
-![images/AJACS64_04_nakazato_001.jpg](images/AJACS64_04_nakazato_001.jpg)
+![images/AJACS64_04_nakazato_001.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_001.jpg)
 ---
 
-![images/AJACS64_04_nakazato_002.jpg](images/AJACS64_04_nakazato_002.jpg)
+![images/AJACS64_04_nakazato_002.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_002.jpg)
 ---
 
-![images/AJACS64_04_nakazato_003.jpg](images/AJACS64_04_nakazato_003.jpg)
+![images/AJACS64_04_nakazato_003.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_003.jpg)
 ---
 
-![images/AJACS64_04_nakazato_004.jpg](images/AJACS64_04_nakazato_004.jpg)
+![images/AJACS64_04_nakazato_004.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_004.jpg)
 ---
 
-![images/AJACS64_04_nakazato_005.jpg](images/AJACS64_04_nakazato_005.jpg)
+![images/AJACS64_04_nakazato_005.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_005.jpg)
 ---
 
-![images/AJACS64_04_nakazato_006.jpg](images/AJACS64_04_nakazato_006.jpg)
+![images/AJACS64_04_nakazato_006.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_006.jpg)
 ---
 
-![images/AJACS64_04_nakazato_007.jpg](images/AJACS64_04_nakazato_007.jpg)
+![images/AJACS64_04_nakazato_007.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_007.jpg)
 ---
 
-![images/AJACS64_04_nakazato_008.jpg](images/AJACS64_04_nakazato_008.jpg)
+![images/AJACS64_04_nakazato_008.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_008.jpg)
 ---
 
-![images/AJACS64_04_nakazato_009.jpg](images/AJACS64_04_nakazato_009.jpg)
+![images/AJACS64_04_nakazato_009.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_009.jpg)
 ---
 
-![images/AJACS64_04_nakazato_010.jpg](images/AJACS64_04_nakazato_010.jpg)
+![images/AJACS64_04_nakazato_010.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_010.jpg)
 ---
 
-![images/AJACS64_04_nakazato_011.jpg](images/AJACS64_04_nakazato_011.jpg)
+![images/AJACS64_04_nakazato_011.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_011.jpg)
 ---
 
-![images/AJACS64_04_nakazato_012.jpg](images/AJACS64_04_nakazato_012.jpg)
+![images/AJACS64_04_nakazato_012.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_012.jpg)
 ---
 
-![images/AJACS64_04_nakazato_013.jpg](images/AJACS64_04_nakazato_013.jpg)
+![images/AJACS64_04_nakazato_013.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_013.jpg)
 ---
 
-![images/AJACS64_04_nakazato_014.jpg](images/AJACS64_04_nakazato_014.jpg)
+![images/AJACS64_04_nakazato_014.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_014.jpg)
 ---
 
-![images/AJACS64_04_nakazato_015.jpg](images/AJACS64_04_nakazato_015.jpg)
+![images/AJACS64_04_nakazato_015.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_015.jpg)
 ---
 
-![images/AJACS64_04_nakazato_016.jpg](images/AJACS64_04_nakazato_016.jpg)
+![images/AJACS64_04_nakazato_016.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_016.jpg)
 ---
 
-![images/AJACS64_04_nakazato_017.jpg](images/AJACS64_04_nakazato_017.jpg)
+![images/AJACS64_04_nakazato_017.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_017.jpg)
 ---
 
-![images/AJACS64_04_nakazato_018.jpg](images/AJACS64_04_nakazato_018.jpg)
+![images/AJACS64_04_nakazato_018.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_018.jpg)
 ---
 
-![images/AJACS64_04_nakazato_019.jpg](images/AJACS64_04_nakazato_019.jpg)
+![images/AJACS64_04_nakazato_019.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_019.jpg)
 ---
 
-![images/AJACS64_04_nakazato_020.jpg](images/AJACS64_04_nakazato_020.jpg)
+![images/AJACS64_04_nakazato_020.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_020.jpg)
 ---
 
-![images/AJACS64_04_nakazato_021.jpg](images/AJACS64_04_nakazato_021.jpg)
+![images/AJACS64_04_nakazato_021.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_021.jpg)
 ---
 
-![images/AJACS64_04_nakazato_022.jpg](images/AJACS64_04_nakazato_022.jpg)
+![images/AJACS64_04_nakazato_022.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_022.jpg)
 ---
 
-![images/AJACS64_04_nakazato_023.jpg](images/AJACS64_04_nakazato_023.jpg)
+![images/AJACS64_04_nakazato_023.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_023.jpg)
 ---
 
-![images/AJACS64_04_nakazato_024.jpg](images/AJACS64_04_nakazato_024.jpg)
+![images/AJACS64_04_nakazato_024.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_024.jpg)
 ---
 
-![images/AJACS64_04_nakazato_025.jpg](images/AJACS64_04_nakazato_025.jpg)
+![images/AJACS64_04_nakazato_025.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_025.jpg)
 ---
 
-![images/AJACS64_04_nakazato_026.jpg](images/AJACS64_04_nakazato_026.jpg)
+![images/AJACS64_04_nakazato_026.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_026.jpg)
 ---
 
-![images/AJACS64_04_nakazato_027.jpg](images/AJACS64_04_nakazato_027.jpg)
+![images/AJACS64_04_nakazato_027.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_027.jpg)
 ---
 
-![images/AJACS64_04_nakazato_028.jpg](images/AJACS64_04_nakazato_028.jpg)
+![images/AJACS64_04_nakazato_028.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_028.jpg)
 ---
 
-![images/AJACS64_04_nakazato_029.jpg](images/AJACS64_04_nakazato_029.jpg)
+![images/AJACS64_04_nakazato_029.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_029.jpg)
 ---
 
-![images/AJACS64_04_nakazato_030.jpg](images/AJACS64_04_nakazato_030.jpg)
+![images/AJACS64_04_nakazato_030.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_030.jpg)
 ---
 
-![images/AJACS64_04_nakazato_031.jpg](images/AJACS64_04_nakazato_031.jpg)
+![images/AJACS64_04_nakazato_031.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_031.jpg)
 ---
 
-![images/AJACS64_04_nakazato_032.jpg](images/AJACS64_04_nakazato_032.jpg)
+![images/AJACS64_04_nakazato_032.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_032.jpg)
 ---
 
-![images/AJACS64_04_nakazato_033.jpg](images/AJACS64_04_nakazato_033.jpg)
+![images/AJACS64_04_nakazato_033.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_033.jpg)
 ---
 
-![images/AJACS64_04_nakazato_034.jpg](images/AJACS64_04_nakazato_034.jpg)
+![images/AJACS64_04_nakazato_034.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_034.jpg)
 ---
 
-![images/AJACS64_04_nakazato_035.jpg](images/AJACS64_04_nakazato_035.jpg)
+![images/AJACS64_04_nakazato_035.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_035.jpg)
 ---
 
-![images/AJACS64_04_nakazato_036.jpg](images/AJACS64_04_nakazato_036.jpg)
+![images/AJACS64_04_nakazato_036.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_036.jpg)
 ---
 
-![images/AJACS64_04_nakazato_037.jpg](images/AJACS64_04_nakazato_037.jpg)
+![images/AJACS64_04_nakazato_037.jpg](https://raw.githubusercontent.com/AJACS-training/AJACS64/master/04_nakazato/images/AJACS64_04_nakazato_037.jpg)
 ---
